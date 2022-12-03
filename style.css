@@ -98,3 +98,36 @@ th{
 .ok td{
     background-color: red;
 }
+
+
+#box-1{
+
+    height: 100px;
+
+    width: 100px;
+    background-color: red;
+}
+#box-2{
+
+    height: 100px;
+
+    width: 100px;
+    background-color: yellow;
+
+    visibility: hidden;
+}
+#box-3{
+
+    height: 100px;
+
+    width: 100px;
+    background-color: green;
+    display: none;
+}
+#box-4{
+
+    height: 100px;
+
+    width: 100px;
+    background-color: pink;
+}
