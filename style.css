@@ -24,6 +24,47 @@ h1:hover{
 }
 
 
+h1 ::before{
+
+    content: 'hello';
+}
+
+
 a:focus{
     color: red;
+}
+
+ul :first-child{
+
+    background-color: red;
+}
+
+ul :last-child{
+
+    color: blue;
+}
+
+ul:hover :last-child{
+
+    background-color: aqua;
+}
+
+ul :nth-child(2n+1){
+
+    background-color: brown;
+}
+
+li ::before{
+
+    content: 'hiiiiii';
+}
+
+h5 ::before{
+
+    content: 'heillo';
+}
+
+h5 ::after{
+
+    content: 'gejksjksi';
 }
