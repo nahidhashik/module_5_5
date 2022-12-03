@@ -71,3 +71,30 @@ h5 ::after{
 
 
 /* module 6 */
+
+
+
+table{
+
+    border-collapse: collapse;
+}
+td{
+
+    border: 2px solid red;
+    /* border-collapse: collapse; */
+    padding: 5px;
+}
+
+th{
+
+
+
+    border: 2px solid red;
+    /* border-collapse: collapse; */
+    padding: 5px;
+
+}
+
+.ok td{
+    background-color: red;
+}
