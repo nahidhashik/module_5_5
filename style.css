@@ -16,3 +16,14 @@ body{
     margin: 55px 5px 5px 55px;
   
 }
+
+h1:hover{
+
+    background-color: red;
+    color: white;
+}
+
+
+a:focus{
+    color: red;
+}
